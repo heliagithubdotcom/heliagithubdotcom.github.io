@@ -1,8 +1,6 @@
 //const contract = require("@truffle/contract");
 //const charity = require("../../migrations/charity");
 
-const charity = require("../../migrations/charity");
-
 const signUpButton = document.getElementById("buttonSignUp");
 signUpButton.addEventListener("click", (e) => {
     e.preventDefault();
